@@ -1,0 +1,7 @@
+[Fri Jan 03 01:11:33 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/robots.txt
+[Fri Jan 03 02:40:14 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Fri Jan 03 07:36:59 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Fri Jan 03 09:57:11 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/robots.txt
+[Fri Jan 03 13:49:13 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico, referer: http://www.pacetest.dk/index.php/pages/437-deltagerliste-sj%C3%A6lland-10-11-12-januar-2014
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 40961 bytes) in /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/vendor/anahita/anahita/vendor/nooku/libraries/koowa/template/abstract.php on line 534

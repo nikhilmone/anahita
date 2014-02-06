@@ -1,0 +1,11 @@
+[Mon Nov 25 06:20:17 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 06:20:30 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 07:10:11 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 07:10:54 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 09:15:40 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 14:15:31 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 14:15:46 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 14:52:54 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 14:56:07 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 15:30:01 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Nov 25 15:31:30 2013] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico

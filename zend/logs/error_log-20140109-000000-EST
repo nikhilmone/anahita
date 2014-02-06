@@ -1,0 +1,19 @@
+[Thu Jan 09 02:59:51 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Thu Jan 09 02:59:51 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Thu Jan 09 02:59:51 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Thu Jan 09 02:59:51 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Thu Jan 09 04:22:13 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Thu Jan 09 06:08:22 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/robots.txt
+[Thu Jan 09 07:04:24 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Thu Jan 09 07:04:24 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Thu Jan 09 07:04:24 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Thu Jan 09 07:04:25 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 40961 bytes) in /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/vendor/anahita/anahita/vendor/nooku/libraries/koowa/template/abstract.php on line 534
+[Thu Jan 09 13:56:41 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Thu Jan 09 13:56:42 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Thu Jan 09 13:56:42 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Thu Jan 09 13:56:42 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Thu Jan 09 15:59:02 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Thu Jan 09 15:59:18 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Thu Jan 09 16:15:11 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/browserconfig.xml

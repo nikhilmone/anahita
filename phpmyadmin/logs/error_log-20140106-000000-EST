@@ -1,0 +1,8 @@
+[Mon Jan 06 18:27:11 2014] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:openshift_t:s0:c2,c195
+[Mon Jan 06 18:27:11 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Jan 06 18:27:11 2014] [notice] Digest: done
+[Mon Jan 06 18:27:11 2014] [notice] Apache/2.2.22 (Unix) PHP/5.3.3 configured -- resuming normal operations
+[Mon Jan 06 18:35:14 2014] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:openshift_t:s0:c2,c195
+[Mon Jan 06 18:35:15 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Jan 06 18:35:15 2014] [notice] Digest: done
+[Mon Jan 06 18:35:15 2014] [notice] Apache/2.2.22 (Unix) PHP/5.3.3 configured -- resuming normal operations

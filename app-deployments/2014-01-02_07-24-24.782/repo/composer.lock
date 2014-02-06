@@ -1,0 +1,184 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "2a01e57e6b89a9060e0f5de4cde7c026",
+    "packages": [
+        {
+            "name": "anahita/anahita",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anahitasocial/anahita.git",
+                "reference": "c5faa03faadeae3346d76e0ebabf007e1dcc4361"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anahitasocial/anahita/zipball/c5faa03faadeae3346d76e0ebabf007e1dcc4361",
+                "reference": "c5faa03faadeae3346d76e0ebabf007e1dcc4361",
+                "shasum": ""
+            },
+            "require": {
+                "dg/mysql-dump": "1.1.0",
+                "easybook/geshi": "1.0.8.11",
+                "php": ">=5.3",
+                "symfony/console": "2.1.*"
+            },
+            "bin": [
+                "bin/anahita"
+            ],
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Anahita Social Networking Platform",
+            "keywords": [
+                "social platform"
+            ],
+            "time": "2013-12-25 23:52:44"
+        },
+        {
+            "name": "dg/mysql-dump",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dg/MySQL-dump.git",
+                "reference": "43928fc540865372a7d94fd750ab16ffd4774e88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dg/MySQL-dump/zipball/43928fc540865372a7d94fd750ab16ffd4774e88",
+                "reference": "43928fc540865372a7d94fd750ab16ffd4774e88",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "MySQLDump.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                }
+            ],
+            "description": "MySQL database dump.",
+            "homepage": "https://github.com/dg/MySQL-dump",
+            "keywords": [
+                "mysql"
+            ],
+            "time": "2013-05-13 16:19:19"
+        },
+        {
+            "name": "easybook/geshi",
+            "version": "1.0.8.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/easybook/geshi.git",
+                "reference": "2582e8134c8af41d7f367e421ee0b8b111e89f36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/easybook/geshi/zipball/2582e8134c8af41d7f367e421ee0b8b111e89f36",
+                "reference": "2582e8134c8af41d7f367e421ee0b8b111e89f36",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">4.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Benny Baumann",
+                    "email": "BenBE@geshi.org"
+                },
+                {
+                    "name": "Nigel McNie",
+                    "email": "nigel@geshi.org"
+                }
+            ],
+            "description": "GeSHi - Generic Syntax Highlighter. This is an unmodified port of GeSHi project code found on SourceForge.",
+            "homepage": "http://qbnz.com/highlighter",
+            "keywords": [
+                "highlight",
+                "highlighter",
+                "syntax"
+            ],
+            "time": "2012-09-28 10:14:18"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.1.13",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "a5e96b2363aca8a5400fec3bbcb3201a4b0513fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/a5e96b2363aca8a5400fec3bbcb3201a4b0513fb",
+                "reference": "a5e96b2363aca8a5400fec3bbcb3201a4b0513fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-06-11 07:34:22"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": [
+
+    ]
+}

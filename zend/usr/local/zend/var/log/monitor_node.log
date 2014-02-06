@@ -1,0 +1,68 @@
+[MonitorNode 23.11.2013 19:59:34 p78473/t140233821140768 SYSTEM] 78473 Monitor Node Verbosity Level: 2 
+[MonitorNode 23.11.2013 19:59:34 p78473/t140233821140768 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 03.12.2013 01:10:53 p78473/t140233821140768 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 03.12.2013 01:10:55 p78473/t140233819019008 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 03.12.2013 01:24:08 p22681/t140249928439584 SYSTEM] 22681 Monitor Node Verbosity Level: 2 
+[MonitorNode 03.12.2013 01:24:08 p22681/t140249928439584 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 11.12.2013 18:11:55 p22681/t140249928439584 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 11.12.2013 18:11:55 p22681/t140249926317824 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 11.12.2013 18:13:34 p424160/t139877332567840 SYSTEM] 424160 Monitor Node Verbosity Level: 2 
+[MonitorNode 11.12.2013 18:13:34 p424160/t139877332567840 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 01.01.2014 10:56:45 p424160/t139877332567840 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 01.01.2014 10:56:46 p424160/t139877330446080 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 01.01.2014 10:57:09 p147027/t140647821121312 SYSTEM] 147027 Monitor Node Verbosity Level: 2 
+[MonitorNode 01.01.2014 10:57:09 p147027/t140647821121312 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 02.01.2014 07:24:14 p147027/t140647821121312 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 02.01.2014 07:24:15 p147027/t140647818999552 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 02.01.2014 07:24:35 p162526/t140176289609504 SYSTEM] 162526 Monitor Node Verbosity Level: 2 
+[MonitorNode 02.01.2014 07:24:35 p162526/t140176289609504 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 02.01.2014 07:29:25 p162526/t140176289609504 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 02.01.2014 07:29:26 p162526/t140176287487744 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 02.01.2014 07:29:28 p166140/t140429899294496 SYSTEM] 166140 Monitor Node Verbosity Level: 2 
+[MonitorNode 02.01.2014 07:29:28 p166140/t140429899294496 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 06.01.2014 18:26:10 p166140/t140429899294496 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 06.01.2014 18:26:11 p166140/t140429897172736 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 06.01.2014 18:27:12 p236268/t139952769619744 SYSTEM] 236268 Monitor Node Verbosity Level: 2 
+[MonitorNode 06.01.2014 18:27:12 p236268/t139952769619744 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 06.01.2014 18:31:11 p236268/t139952769619744 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 06.01.2014 18:31:12 p236268/t139952767497984 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 06.01.2014 18:35:17 p242467/t140695663478560 SYSTEM] 242467 Monitor Node Verbosity Level: 2 
+[MonitorNode 06.01.2014 18:35:17 p242467/t140695663478560 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 07.01.2014 08:12:49 p242467/t140695663478560 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 07.01.2014 08:12:50 p242467/t140695661356800 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 07.01.2014 08:12:52 p28680/t139792476596000 SYSTEM] 28680 Monitor Node Verbosity Level: 2 
+[MonitorNode 07.01.2014 08:12:52 p28680/t139792476596000 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 07.01.2014 08:14:00 p28680/t139792476596000 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 07.01.2014 08:14:01 p28680/t139792474474240 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 07.01.2014 08:14:04 p30189/t139792376903456 SYSTEM] 30189 Monitor Node Verbosity Level: 2 
+[MonitorNode 07.01.2014 08:14:04 p30189/t139792376903456 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 07.01.2014 08:16:50 p30189/t139792376903456 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 07.01.2014 08:16:51 p30189/t139792374781696 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 07.01.2014 08:17:58 p35166/t140630086068000 SYSTEM] 35166 Monitor Node Verbosity Level: 2 
+[MonitorNode 07.01.2014 08:17:58 p35166/t140630086068000 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 07.01.2014 08:19:11 p35166/t140630086068000 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 07.01.2014 08:19:12 p35166/t140630083946240 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 07.01.2014 08:20:11 p38141/t139773147260704 SYSTEM] 38141 Monitor Node Verbosity Level: 2 
+[MonitorNode 07.01.2014 08:20:11 p38141/t139773147260704 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 07.01.2014 08:43:33 p38141/t139773147260704 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 07.01.2014 08:43:33 p38141/t139773145138944 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 07.01.2014 08:43:36 p67292/t140578343151392 SYSTEM] 67292 Monitor Node Verbosity Level: 2 
+[MonitorNode 07.01.2014 08:43:36 p67292/t140578343151392 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 07.01.2014 09:31:50 p67292/t140578343151392 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 07.01.2014 09:31:50 p67292/t140578341029632 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 07.01.2014 09:31:53 p130046/t140002743617312 SYSTEM] 130046 Monitor Node Verbosity Level: 2 
+[MonitorNode 07.01.2014 09:31:53 p130046/t140002743617312 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 20.01.2014 14:08:05 p130046/t140002743617312 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 20.01.2014 14:08:06 p130046/t140002741495552 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 20.01.2014 14:12:56 p194868/t140409661982496 SYSTEM] 194868 Monitor Node Verbosity Level: 2 
+[MonitorNode 20.01.2014 14:12:56 p194868/t140409661982496 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 24.01.2014 06:21:07 p194868/t140409661982496 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 24.01.2014 06:21:08 p194868/t140409659860736 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 24.01.2014 06:22:17 p492692/t140578547124000 SYSTEM] 492692 Monitor Node Verbosity Level: 2 
+[MonitorNode 24.01.2014 06:22:17 p492692/t140578547124000 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 29.01.2014 17:46:19 p492692/t140578547124000 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 29.01.2014 17:46:20 p492692/t140578545002240 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 
+[MonitorNode 29.01.2014 17:46:58 p162018/t140482630154016 SYSTEM] 162018 Monitor Node Verbosity Level: 2 
+[MonitorNode 29.01.2014 17:46:58 p162018/t140482630154016 NOTICE] SMTP Server is not set. Mail service is not initialized 
+[MonitorNode 04.02.2014 19:26:15 p162018/t140482630154016 SYSTEM] Monitor Node is going down. Performing Shutdown 
+[MonitorNode 04.02.2014 19:26:16 p162018/t140482628032256 NOTICE] ZMProcessEventsThread::run-> Shutdown call was noticed. Peforming shutdown! 

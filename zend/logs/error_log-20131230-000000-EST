@@ -1,0 +1,2 @@
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 40961 bytes) in /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/vendor/anahita/anahita/vendor/nooku/libraries/koowa/template/abstract.php on line 534

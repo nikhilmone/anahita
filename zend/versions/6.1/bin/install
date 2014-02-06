@@ -1,0 +1,71 @@
+#!/bin/bash -eux
+
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+version="$1"
+
+#FIXME: https://trello.com/c/BB2errnd (also search for & remove `unset LD_LIBRARY_PATH')
+#echo "${OPENSHIFT_ZEND_DIR}php-5.4/lib" > ${OPENSHIFT_ZEND_DIR}env/LD_LIBRARY_PATH
+echo "${OPENSHIFT_ZEND_DIR}php-5.4/bin" > ${OPENSHIFT_ZEND_DIR}env/OPENSHIFT_ZEND_PATH_ELEMENT
+echo "${OPENSHIFT_ZEND_DIR}php-5.4/tmp" > ${OPENSHIFT_ZEND_DIR}env/ZEND_TMPDIR
+echo "${OPENSHIFT_ZEND_DIR}php-5.4/etc/php.ini" > ${OPENSHIFT_ZEND_DIR}env/PHPRC
+echo "Zend Server" > ${OPENSHIFT_ZEND_DIR}env/PRODUCT_NAME
+echo "6.1.0" > ${OPENSHIFT_ZEND_DIR}env/PRODUCT_VERSION
+#sockets and semaphore files identification number (not related to ZEND_UID):
+echo "1328" > ${OPENSHIFT_ZEND_DIR}env/INSTALLATION_UID
+echo "DIST=pe" > ${OPENSHIFT_ZEND_DIR}env/DIST
+
+export LD_LIBRARY_PATH=${OPENSHIFT_ZEND_DIR}php-5.4/lib
+export PATH=${OPENSHIFT_ZEND_DIR}php-5.4/bin:${PATH}
+export PHPRC=${OPENSHIFT_ZEND_DIR}configuration/etc/php.ini
+
+shopt -s dotglob
+
+mkdir -p ${OPENSHIFT_ZEND_DIR}php-5.4
+
+cp -r ${OPENSHIFT_ZEND_DIR}versions/$version/configuration/user-files/* ${OPENSHIFT_ZEND_DIR}php-5.4/
+cp -r /usr/local/zend-server-6-php-5.4/gui/public ${OPENSHIFT_ZEND_DIR}php-5.4/gui
+
+# Copy the version specific files up to zend directory
+mkdir -p ${OPENSHIFT_ZEND_DIR}configuration/etc/conf.d
+mkdir -p ${OPENSHIFT_ZEND_DIR}configuration/etc/conf
+
+#Symlink to the correct version of apache config
+ln -s ${OPENSHIFT_ZEND_DIR}versions/$version/configuration/etc/conf.d/* ${OPENSHIFT_ZEND_DIR}configuration/etc/conf.d/
+ln -s ${OPENSHIFT_ZEND_DIR}versions/$version/configuration/etc/conf/* ${OPENSHIFT_ZEND_DIR}configuration/etc/conf/
+
+#Link the php.ini to the one that is accessbile to the Zend Server GUI
+ln -s ../../php-5.4/etc/php.ini ${OPENSHIFT_ZEND_DIR}configuration/etc
+
+echo "Creating/Upgrading Zend databases. This may take several minutes..."
+$ZCE_PREFIX/gui/lighttpd/sbin/php -c $ZCE_PREFIX/gui/lighttpd/etc/php-fcgi.ini $ZCE_PREFIX/share/scripts/zs_create_databases.php zsDir=$ZCE_PREFIX toVersion=6.1.0 || echo -e "\n\nERROR: Can't create Zend DB!\n\n"
+
+#Generate 7 day trial license
+${OPENSHIFT_ZEND_DIR}php-5.4/bin/zsd ${OPENSHIFT_ZEND_DIR}php-5.4/etc/zsd.ini --generate-license
+
+#ZCLOUD-60 - create empty php and scd log files
+touch ${OPENSHIFT_ZEND_DIR}php-5.4/var/log/php.log
+touch ${OPENSHIFT_ZEND_DIR}php-5.4/var/log/scd.log
+
+# Pear setup
+rm -f ${OPENSHIFT_HOMEDIR}.pearrc
+mkdir -p ${OPENSHIFT_ZEND_DIR}phplib/pear/{docs,ext,php,cache,cfg,data,download,temp,tests,www}
+pear config-create ${OPENSHIFT_ZEND_DIR}phplib/pear/ ${OPENSHIFT_HOMEDIR}.pearrc
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-set php_ini "${OPENSHIFT_ZEND_DIR}configuration/etc/php.ini"
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-set php_bin "${OPENSHIFT_ZEND_DIR}php-5.4/bin/php"
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-set ext_dir "${OPENSHIFT_ZEND_DIR}php-5.4/lib/php_extensions"
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-set auto_discover 1
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc channel-update pear.php.net
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc upgrade --force pear
+
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-get bin_dir > "$OPENSHIFT_ZEND_DIR/env/OPENSHIFT_PHP_PATH_ELEMENT"
+
+#Removing and double slashes from configuration files
+for i in $(grep -rl // ${OPENSHIFT_ZEND_DIR}php-5.4/etc ${OPENSHIFT_ZEND_DIR}php-5.4/gui/lighttpd --include=*.ini)
+do
+sed 's/\/\/z/\/z/g' -i $i
+done
+
+#ZCLOUD-127 - unset LD_LIBRARY_PATH so that Zend Server does not collide with other cartridges
+unset LD_LIBRARY_PATH
+client_result "Note: You should set password for the Zend Server Console at: https://$OPENSHIFT_APP_DNS/ZendServer"

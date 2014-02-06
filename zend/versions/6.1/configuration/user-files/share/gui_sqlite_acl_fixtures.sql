@@ -1,0 +1,1 @@
+/usr/local/zend-server-6-php-5.4/share/gui_sqlite_acl_fixtures.sql

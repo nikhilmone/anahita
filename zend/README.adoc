@@ -1,0 +1,43 @@
+[[zend]]
+== Zend Server
+The `zend` cartridge provides http://www.zend.com/en/products/server/[Zend Server] on OpenShift.
+
+=== Template Repository Layout
+----
+php/                   Externally exposed PHP code goes here
+libs/                  Additional libraries
+misc/                  For PHP code that should not be accessible by end users
+deplist.txt            List of pears to install <1>
+.openshift/            Location for OpenShift specific files
+    action_hooks/      See the Action Hooks documentation <2>
+    markers/           See the Markers section below
+----
+<1> A list of pears to install, line by line on the server. This will happen when the user git pushes.
+<2> link:http://openshift.github.io/documentation/oo_user_guide.html#action-hooks[Action Hooks] documentation
+
+OpenShift will look for the `php` and `libs` directories when serving your 
+application. index.php will handle requests to the root URL of your 
+application. You can create new directories as needed.
+
+=== Markers
+Adding marker files to `.openshift/markers` will have the following effects:
+
+[cols="1,3",options="header"]
+|===
+|Marker |Effect
+
+|force_clean_build
+|Will remove all previous deps and start installing required deps from scratch
+
+|hot_deploy
+|Will prevent the apache process from being restarted during build/deployment
+
+|disable_auto_scaling
+|Will prevent scalable applications from scaling up or down according to application load.
+|===
+
+== Zend Server Console
+Access your Zend Server Console at the following link:
+----
+http://MyApp-MyDomain.rhcloud.com/ZendServer
+----

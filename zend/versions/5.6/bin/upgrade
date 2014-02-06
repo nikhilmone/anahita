@@ -1,0 +1,21 @@
+#!/bin/bash -eu
+
+zend_version=$1
+curr=$2
+next=$3
+
+mkdir -p ${OPENSHIFT_HOMEDIR}.drush
+
+if [[ $next =~ 0.0.2 ]]; then
+  mkdir -p ${OPENSHIFT_DEPENDENCIES_DIR}phplib
+  mv ${OPENSHIFT_ZEND_DIR}phplib/* ${OPENSHIFT_DEPENDENCIES_DIR}phplib
+fi
+
+if [[ $next =~ 1.0.0 ]]; then
+  mv ${OPENSHIFT_ZEND_DIR}usr/local/zend ${OPENSHIFT_ZEND_DIR}php-5.3
+  rmdir ${OPENSHIFT_ZEND_DIR}usr/local && rmdir ${OPENSHIFT_ZEND_DIR}usr
+  # ${OPENSHIFT_ZEND_DIR}usr will become symlink to the shared cartridge usr/ dir automatically
+  for i in etc gui/application/data gui/lighttpd/{etc,logs,tmp} tmp var; do
+    ln -sf ${OPENSHIFT_ZEND_DIR}php-5.3/$i /sandbox/zend/$i
+  done
+fi

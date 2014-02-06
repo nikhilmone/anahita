@@ -1,0 +1,12 @@
+[Sun Jan 12 02:50:12 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/robots.txt
+[Sun Jan 12 05:34:40 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Sun Jan 12 07:34:19 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Sun Jan 12 07:34:25 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Sun Jan 12 07:34:28 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Sun Jan 12 09:31:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Sun Jan 12 09:31:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Sun Jan 12 12:01:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Sun Jan 12 12:01:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Sun Jan 12 12:01:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Sun Jan 12 12:01:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Sun Jan 12 15:33:04 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/robots.txt

@@ -1,0 +1,18 @@
+[Tue Jan 07 08:14:20 2014] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 07 08:14:20 2014] [notice] Digest: done
+[Tue Jan 07 08:14:20 2014] [notice] Apache/2.2.22 (Unix) PHP/5.3.3 configured -- resuming normal operations
+[Tue Jan 07 08:18:07 2014] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:openshift_t:s0:c2,c195
+[Tue Jan 07 08:18:08 2014] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 07 08:18:08 2014] [notice] Digest: done
+[Tue Jan 07 08:18:08 2014] [notice] Apache/2.2.22 (Unix) PHP/5.3.3 configured -- resuming normal operations
+[Tue Jan 07 08:20:21 2014] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:openshift_t:s0:c2,c195
+[Tue Jan 07 08:20:22 2014] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 07 08:20:22 2014] [notice] Digest: done
+[Tue Jan 07 08:20:22 2014] [notice] Apache/2.2.22 (Unix) PHP/5.3.3 configured -- resuming normal operations
+[Tue Jan 07 08:43:49 2014] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 07 08:43:49 2014] [notice] Digest: done
+[Tue Jan 07 08:43:49 2014] [notice] Apache/2.2.22 (Unix) PHP/5.3.3 configured -- resuming normal operations
+[Tue Jan 07 09:32:07 2014] [notice] SIGHUP received.  Attempting to restart
+[Tue Jan 07 09:32:07 2014] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 07 09:32:07 2014] [notice] Digest: done
+[Tue Jan 07 09:32:08 2014] [notice] Apache/2.2.22 (Unix) PHP/5.3.3 configured -- resuming normal operations

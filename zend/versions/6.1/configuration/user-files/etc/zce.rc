@@ -1,0 +1,12 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/var/lib/openshift/52914f2e5973cac9cd000053/zend/php-5.4/lib
+ZCE_PREFIX=/var/lib/openshift/52914f2e5973cac9cd000053/zend/php-5.4
+WEB_USER=52914f2e5973cac9cd000053
+PRODUCT_NAME="Zend Server"
+#Shorten the name so the filename for sockets is less than 110 charachters
+export INSTALLATION_UID=1328
+export ZEND_TMPDIR=/var/lib/openshift/52914f2e5973cac9cd000053/zend/php-5.4/tmp
+PRODUCT_VERSION=6.1.0
+export PHPRC=$ZCE_PREFIX/etc/php.ini
+export PHP_INI_SCAN_DIR=$ZCE_PREFIX/etc/conf.d
+DIST=pe
+

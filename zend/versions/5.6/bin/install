@@ -1,0 +1,66 @@
+#!/bin/bash -eux
+
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+version="$1"
+
+echo "/usr/local/zend/bin" > ${OPENSHIFT_ZEND_DIR}env/OPENSHIFT_ZEND_PATH_ELEMENT
+
+shopt -s dotglob
+
+mkdir -p ${OPENSHIFT_ZEND_DIR}php-5.3
+cp -r ${OPENSHIFT_ZEND_DIR}versions/$version/configuration/user-files/* ${OPENSHIFT_ZEND_DIR}php-5.3
+
+# PAM /sandbox dir
+zend_sandbox="/sandbox/zend"
+
+paths=(
+"etc"
+"tmp"
+"var"
+"gui/lighttpd/etc"
+"gui/lighttpd/logs"
+"gui/lighttpd/tmp"
+"gui/application/data"
+)
+
+# Symlinks the above paths in /sandbox to cartridge directory in the gear
+for path in ${paths[*]}; do
+    zpath=$zend_sandbox/$path
+    zdir=`dirname $zpath`
+    zfile=`basename $zpath`
+    [ -d "$zdir" ]  ||  mkdir -p $zdir
+    ln -s ${OPENSHIFT_ZEND_DIR}php-5.3/$path $zdir/$zfile
+done
+
+# Copy the version specific files up to zend directory
+mkdir -p ${OPENSHIFT_ZEND_DIR}configuration/etc/conf.d
+cp ${OPENSHIFT_ZEND_DIR}versions/$version/configuration/etc/conf.d/* ${OPENSHIFT_ZEND_DIR}configuration/etc/conf.d/
+
+mkdir -p ${OPENSHIFT_ZEND_DIR}configuration/etc/conf
+cp ${OPENSHIFT_ZEND_DIR}versions/$version/configuration/etc/conf/* ${OPENSHIFT_ZEND_DIR}configuration/etc/conf/
+
+# Copy php.ini file
+cp ${OPENSHIFT_ZEND_DIR}versions/$version/configuration/etc/php.ini ${OPENSHIFT_ZEND_DIR}configuration/etc/php.ini
+
+# Symlink php.ini in sandboxed dir, so /usr/local/zend/etc/php.ini is available
+ln -s ${OPENSHIFT_ZEND_DIR}configuration/etc/php.ini $zend_sandbox/etc/php.ini
+
+# Symlink apachectl in sandboxed dir, /usr/local/zend/bin/apachectl points to the control script
+mkdir -p $zend_sandbox/bin
+ln -s ${OPENSHIFT_ZEND_DIR}bin/control $zend_sandbox/bin/apachectl
+
+# Pear setup
+rm -f ${OPENSHIFT_HOMEDIR}.pearrc
+mkdir -p ${OPENSHIFT_ZEND_DIR}phplib/pear/{docs,ext,php,cache,cfg,data,download,temp,tests,www}
+pear config-create ${OPENSHIFT_ZEND_DIR}phplib/pear/ ${OPENSHIFT_HOMEDIR}.pearrc
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-set php_ini "${OPENSHIFT_ZEND_DIR}configuration/etc/php.ini"
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-set php_bin "${OPENSHIFT_ZEND_DIR}php-5.3/bin/php"
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-set ext_dir "${OPENSHIFT_ZEND_DIR}php-5.3/lib/php_extensions"
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-set auto_discover 1
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc channel-update pear.php.net
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc upgrade --force pear
+
+pear -c ${OPENSHIFT_HOMEDIR}.pearrc config-get bin_dir > "$OPENSHIFT_ZEND_DIR/env/OPENSHIFT_PHP_PATH_ELEMENT"
+
+client_result "Note: You should set password for the Zend Server Console at: https://$OPENSHIFT_APP_DNS/ZendServer"

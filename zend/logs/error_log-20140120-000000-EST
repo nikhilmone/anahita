@@ -1,0 +1,199 @@
+[Sun Jan 19 22:23:59 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/robots.txt
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/vendor/anahita/anahita/src/libraries/default/base/template/abstract.php on line 436
+zend_mm_heap corrupted
+[Mon Jan 20 01:41:28 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 01:41:28 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 01:41:28 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 01:41:28 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Mon Jan 20 01:41:47 2014] [notice] child pid 11097 exit signal Segmentation fault (11)
+[Mon Jan 20 01:41:47 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 01:41:47 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 01:41:47 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 01:41:47 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Mon Jan 20 01:42:38 2014] [notice] child pid 88146 exit signal Segmentation fault (11)
+[Mon Jan 20 01:44:08 2014] [notice] child pid 87622 exit signal Segmentation fault (11)
+[Mon Jan 20 01:44:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 01:44:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 01:44:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 01:44:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Mon Jan 20 01:54:16 2014] [notice] child pid 88118 exit signal Segmentation fault (11)
+[Mon Jan 20 01:54:16 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 01:54:17 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 01:54:17 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 01:54:17 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/vendor/anahita/anahita/src/libraries/default/base/template/abstract.php on line 436
+zend_mm_heap corrupted
+[Mon Jan 20 01:56:33 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 01:56:34 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 01:56:34 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 01:56:34 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Mon Jan 20 01:56:58 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 01:56:58 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 01:56:58 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 01:56:58 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Mon Jan 20 01:57:59 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 01:57:59 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 01:57:59 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 01:57:59 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Mon Jan 20 01:59:27 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 01:59:27 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 01:59:27 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 01:59:27 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Mon Jan 20 02:04:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 02:04:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 02:04:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 02:04:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Mon Jan 20 03:46:14 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Jan 20 03:46:14 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 8208 bytes) in /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/vendor/anahita/anahita/vendor/nooku/libraries/koowa/service/identifier/identifier.php on line 170
+[Mon Jan 20 05:09:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Jan 20 05:13:10 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Jan 20 06:12:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152-precomposed.png
+[Mon Jan 20 06:12:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-152x152.png
+[Mon Jan 20 06:12:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon-precomposed.png
+[Mon Jan 20 06:12:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/apple-touch-icon.png
+[Mon Jan 20 09:09:35 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/robots.txt
+[Mon Jan 20 09:09:43 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/1.1, referer: http://www.pacetest.dk/
+[Mon Jan 20 09:09:47 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/fred@domain.com, referer: http://www.pacetest.dk/
+[Mon Jan 20 09:10:04 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/1.4.5, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:06 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/MSXML2.XMLHTTP, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:07 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Microsoft.XMLHTTP, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/ShockwaveFlash.ShockwaveFlash, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:09 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/1.1.7, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:16 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/1.4.0.1, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:17 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Number.currency, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:18 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Number.percentage, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:19 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/form.request, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:20 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.overTxtWrapper, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:24 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.tooltip, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:25 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.tooltip-arrow, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:26 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.tooltip-inner, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:27 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.popover, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:28 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.arrow, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:29 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.popover-inner, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:30 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/h3.popover-title, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:31 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.popover-content, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:32 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Bootstrap.Popup, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:33 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.modal-backdrop, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:33 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/BS.showPopup, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:34 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/BS.FormValidator, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:35 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/div.advice, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:37 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/span.help-inline, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:38 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/span.help-inline.advice.auto-created, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:39 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/span.advice, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:40 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/BS.Popover, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:41 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/BS.Popup, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:42 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Popup.FormRequest, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:42 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/BS.Tabs, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:44 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/BS.Tooltip, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:45 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/BS.Twipsy, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:52 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Prompt.loading, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:53 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Element.Inject, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:54 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Action.cancel, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:55 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Action.yes, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:56 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Prompt.inlineEdit, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:56 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Action.save, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Prompt.confirmDelete, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:10:58 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/Action.delete, referer: http://www.pacetest.dk/media/lib_anahita/js/production/site.js
+[Mon Jan 20 09:13:29 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/media/lib_anahita/js/vendors/mediabox.js
+[Mon Jan 20 09:13:37 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/media/lib_anahita/js/vendors/mediabox.js
+[Mon Jan 20 13:49:34 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Jan 20 13:49:34 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Jan 20 14:12:57 2014] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:openshift_t:s0:c2,c195
+[Mon Jan 20 14:13:00 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Jan 20 14:13:00 2014] [notice] Digest: done
+[Mon Jan 20 14:13:00 2014] [notice] Apache/2.2.22 (Unix) configured -- resuming normal operations
+[Mon Jan 20 14:13:01 2014] [error] [client 127.4.95.1] Attempt to serve directory: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:13:02 2014] [error] [client 127.4.95.1] Attempt to serve directory: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:13:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/notifications, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:13:09 2014] [error] [client 127.4.95.1] Attempt to serve directory: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:13:10 2014] [error] [client 127.4.95.1] Attempt to serve directory: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:13:12 2014] [error] [client 127.4.95.1] Attempt to serve directory: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:13:13 2014] [error] [client 127.4.95.1] Attempt to serve directory: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:13:38 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/notifications, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:13:40 2014] [error] [client 127.4.95.1] Attempt to serve directory: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:16:27 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:17:21 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:20:17 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:20:24 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:20:42 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:20:51 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:20:59 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:21:31 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:21:43 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:22:50 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:22:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:23:12 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:23:45 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:24:01 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:25:11 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:26:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:35:42 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:37:15 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:37:27 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:42:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:42:18 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:44:07 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:46:19 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:46:34 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:46:41 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:47:43 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:49:36 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:50:00 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 14:51:47 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:52:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:52:28 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:53:04 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:53:42 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:53:53 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:54:07 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:54:55 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:55:12 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:56:36 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:57:06 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 14:59:42 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:00:16 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:01:37 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:02:31 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:04:24 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:04:46 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:04:51 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:05:05 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:05:51 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:06:23 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:08:34 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:10:07 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:11:01 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:13:29 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:15:00 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/groups, referer: http://www.pacetest.dk/groups/6-kollaborativt-lederskab
+[Mon Jan 20 15:15:45 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 15:16:05 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:16:49 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 15:17:08 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:42:20 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:43:53 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:52:37 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 15:56:31 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/groups, referer: http://www.pacetest.dk/groups/6-kollaborativt-lederskab
+[Mon Jan 20 15:57:00 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/people, referer: http://www.pacetest.dk/people/BentRS
+[Mon Jan 20 17:16:36 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/robots.txt
+[Mon Jan 20 17:54:00 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Jan 20 17:54:00 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Mon Jan 20 17:54:32 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:01:29 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:02:30 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:03:23 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:10:53 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:11:13 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:11:18 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:11:49 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:12:57 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:14:24 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:14:31 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:15:46 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:16:17 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:18:58 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:19:23 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/
+[Mon Jan 20 18:20:35 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/com_composer, referer: http://www.pacetest.dk/

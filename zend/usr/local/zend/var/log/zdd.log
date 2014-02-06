@@ -1,0 +1,323 @@
+[23.11.2013 19:59:33 DBG1] Log Verbosity          : 3 
+[23.11.2013 19:59:33 DBG1] Log Rotation           : 10 
+[23.11.2013 19:59:33 DBG1] Install Directory      : /usr/local/zend 
+[23.11.2013 19:59:33 DBG1] Log Directory          : /usr/local/zend/var/log 
+[23.11.2013 19:59:33 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[23.11.2013 19:59:33 DBG1] Database type:          : QSQLITE 
+[23.11.2013 19:59:33 DBG1] Database host           : 127.0.0.1 
+[23.11.2013 19:59:33 DBG1] Database port           : 3306 
+[23.11.2013 19:59:33 DBG1] Database schema         : zend_deployment 
+[23.11.2013 19:59:33 DBG1] Database user           : zend 
+[23.11.2013 19:59:33 DBG1] Database password       : ****** 
+[23.11.2013 19:59:33 DBG1] Server scripts directory:  
+[23.11.2013 19:59:33 DBG1] Hooks PHP binary        :  
+[23.11.2013 19:59:33 DBG1] Initialized Monitor event reporter: 
+[23.11.2013 19:59:33 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[23.11.2013 19:59:33 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[23.11.2013 19:59:33 DBG1] Updating status reporter configuration 
+[23.11.2013 19:59:33 DBG1] Starting main loop 
+[03.12.2013 01:10:57 DBG1] Shutting down... 
+[03.12.2013 01:24:03 DBG1] Log Verbosity          : 3 
+[03.12.2013 01:24:03 DBG1] Log Rotation           : 10 
+[03.12.2013 01:24:03 DBG1] Install Directory      : /usr/local/zend 
+[03.12.2013 01:24:03 DBG1] Log Directory          : /usr/local/zend/var/log 
+[03.12.2013 01:24:03 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[03.12.2013 01:24:03 DBG1] Database type:          : QSQLITE 
+[03.12.2013 01:24:03 DBG1] Database host           : 127.0.0.1 
+[03.12.2013 01:24:03 DBG1] Database port           : 3306 
+[03.12.2013 01:24:03 DBG1] Database schema         : zend_deployment 
+[03.12.2013 01:24:03 DBG1] Database user           : zend 
+[03.12.2013 01:24:03 DBG1] Database password       : ****** 
+[03.12.2013 01:24:03 DBG1] Server scripts directory:  
+[03.12.2013 01:24:03 DBG1] Hooks PHP binary        :  
+[03.12.2013 01:24:03 DBG1] Initialized Monitor event reporter: 
+[03.12.2013 01:24:03 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[03.12.2013 01:24:03 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[03.12.2013 01:24:03 DBG1] Updating status reporter configuration 
+[03.12.2013 01:24:10 DBG1] Starting main loop 
+[11.12.2013 18:11:58 DBG1] Shutting down... 
+[11.12.2013 18:13:33 DBG1] Log Verbosity          : 3 
+[11.12.2013 18:13:33 DBG1] Log Rotation           : 10 
+[11.12.2013 18:13:33 DBG1] Install Directory      : /usr/local/zend 
+[11.12.2013 18:13:33 DBG1] Log Directory          : /usr/local/zend/var/log 
+[11.12.2013 18:13:33 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[11.12.2013 18:13:33 DBG1] Database type:          : QSQLITE 
+[11.12.2013 18:13:33 DBG1] Database host           : 127.0.0.1 
+[11.12.2013 18:13:33 DBG1] Database port           : 3306 
+[11.12.2013 18:13:33 DBG1] Database schema         : zend_deployment 
+[11.12.2013 18:13:33 DBG1] Database user           : zend 
+[11.12.2013 18:13:33 DBG1] Database password       : ****** 
+[11.12.2013 18:13:33 DBG1] Server scripts directory:  
+[11.12.2013 18:13:33 DBG1] Hooks PHP binary        :  
+[11.12.2013 18:13:33 DBG1] Initialized Monitor event reporter: 
+[11.12.2013 18:13:33 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[11.12.2013 18:13:33 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[11.12.2013 18:13:33 DBG1] Updating status reporter configuration 
+[11.12.2013 18:13:33 DBG1] Starting main loop 
+[01.01.2014 10:56:48 DBG1] Shutting down... 
+[01.01.2014 10:57:08 DBG1] Log Verbosity          : 3 
+[01.01.2014 10:57:08 DBG1] Log Rotation           : 10 
+[01.01.2014 10:57:08 DBG1] Install Directory      : /usr/local/zend 
+[01.01.2014 10:57:08 DBG1] Log Directory          : /usr/local/zend/var/log 
+[01.01.2014 10:57:08 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[01.01.2014 10:57:08 DBG1] Database type:          : QSQLITE 
+[01.01.2014 10:57:08 DBG1] Database host           : 127.0.0.1 
+[01.01.2014 10:57:08 DBG1] Database port           : 3306 
+[01.01.2014 10:57:08 DBG1] Database schema         : zend_deployment 
+[01.01.2014 10:57:08 DBG1] Database user           : zend 
+[01.01.2014 10:57:08 DBG1] Database password       : ****** 
+[01.01.2014 10:57:08 DBG1] Server scripts directory:  
+[01.01.2014 10:57:08 DBG1] Hooks PHP binary        :  
+[01.01.2014 10:57:08 DBG1] Initialized Monitor event reporter: 
+[01.01.2014 10:57:08 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[01.01.2014 10:57:08 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[01.01.2014 10:57:08 DBG1] Updating status reporter configuration 
+[01.01.2014 10:57:08 DBG1] Starting main loop 
+[02.01.2014 07:24:17 DBG1] Shutting down... 
+[02.01.2014 07:24:34 DBG1] Log Verbosity          : 3 
+[02.01.2014 07:24:34 DBG1] Log Rotation           : 10 
+[02.01.2014 07:24:34 DBG1] Install Directory      : /usr/local/zend 
+[02.01.2014 07:24:34 DBG1] Log Directory          : /usr/local/zend/var/log 
+[02.01.2014 07:24:34 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[02.01.2014 07:24:34 DBG1] Database type:          : QSQLITE 
+[02.01.2014 07:24:34 DBG1] Database host           : 127.0.0.1 
+[02.01.2014 07:24:34 DBG1] Database port           : 3306 
+[02.01.2014 07:24:34 DBG1] Database schema         : zend_deployment 
+[02.01.2014 07:24:34 DBG1] Database user           : zend 
+[02.01.2014 07:24:34 DBG1] Database password       : ****** 
+[02.01.2014 07:24:34 DBG1] Server scripts directory:  
+[02.01.2014 07:24:34 DBG1] Hooks PHP binary        :  
+[02.01.2014 07:24:34 DBG1] Initialized Monitor event reporter: 
+[02.01.2014 07:24:34 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[02.01.2014 07:24:34 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[02.01.2014 07:24:34 DBG1] Updating status reporter configuration 
+[02.01.2014 07:24:34 DBG1] Starting main loop 
+[02.01.2014 07:29:23 DBG1] Shutting down... 
+[02.01.2014 07:29:25 DBG1] Log Verbosity          : 3 
+[02.01.2014 07:29:25 DBG1] Log Rotation           : 10 
+[02.01.2014 07:29:25 DBG1] Install Directory      : /usr/local/zend 
+[02.01.2014 07:29:25 DBG1] Log Directory          : /usr/local/zend/var/log 
+[02.01.2014 07:29:25 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[02.01.2014 07:29:25 DBG1] Database type:          : QSQLITE 
+[02.01.2014 07:29:25 DBG1] Database host           : 127.0.0.1 
+[02.01.2014 07:29:25 DBG1] Database port           : 3306 
+[02.01.2014 07:29:25 DBG1] Database schema         : zend_deployment 
+[02.01.2014 07:29:25 DBG1] Database user           : zend 
+[02.01.2014 07:29:25 DBG1] Database password       : ****** 
+[02.01.2014 07:29:25 DBG1] Server scripts directory:  
+[02.01.2014 07:29:25 DBG1] Hooks PHP binary        :  
+[02.01.2014 07:29:25 DBG1] Initialized Monitor event reporter: 
+[02.01.2014 07:29:25 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[02.01.2014 07:29:25 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[02.01.2014 07:29:25 DBG1] Updating status reporter configuration 
+[02.01.2014 07:29:25 DBG1] Starting main loop 
+[06.01.2014 18:26:14 DBG1] Shutting down... 
+[06.01.2014 18:27:11 DBG1] Log Verbosity          : 3 
+[06.01.2014 18:27:11 DBG1] Log Rotation           : 10 
+[06.01.2014 18:27:11 DBG1] Install Directory      : /usr/local/zend 
+[06.01.2014 18:27:11 DBG1] Log Directory          : /usr/local/zend/var/log 
+[06.01.2014 18:27:11 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[06.01.2014 18:27:11 DBG1] Database type:          : QSQLITE 
+[06.01.2014 18:27:11 DBG1] Database host           : 127.0.0.1 
+[06.01.2014 18:27:11 DBG1] Database port           : 3306 
+[06.01.2014 18:27:11 DBG1] Database schema         : zend_deployment 
+[06.01.2014 18:27:11 DBG1] Database user           : zend 
+[06.01.2014 18:27:11 DBG1] Database password       : ****** 
+[06.01.2014 18:27:11 DBG1] Server scripts directory:  
+[06.01.2014 18:27:11 DBG1] Hooks PHP binary        :  
+[06.01.2014 18:27:11 DBG1] Initialized Monitor event reporter: 
+[06.01.2014 18:27:11 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[06.01.2014 18:27:11 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[06.01.2014 18:27:11 DBG1] Updating status reporter configuration 
+[06.01.2014 18:27:11 DBG1] Starting main loop 
+[06.01.2014 18:31:13 DBG1] Shutting down... 
+[06.01.2014 18:35:16 DBG1] Log Verbosity          : 3 
+[06.01.2014 18:35:16 DBG1] Log Rotation           : 10 
+[06.01.2014 18:35:16 DBG1] Install Directory      : /usr/local/zend 
+[06.01.2014 18:35:16 DBG1] Log Directory          : /usr/local/zend/var/log 
+[06.01.2014 18:35:16 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[06.01.2014 18:35:16 DBG1] Database type:          : QSQLITE 
+[06.01.2014 18:35:16 DBG1] Database host           : 127.0.0.1 
+[06.01.2014 18:35:16 DBG1] Database port           : 3306 
+[06.01.2014 18:35:16 DBG1] Database schema         : zend_deployment 
+[06.01.2014 18:35:16 DBG1] Database user           : zend 
+[06.01.2014 18:35:16 DBG1] Database password       : ****** 
+[06.01.2014 18:35:16 DBG1] Server scripts directory:  
+[06.01.2014 18:35:16 DBG1] Hooks PHP binary        :  
+[06.01.2014 18:35:16 DBG1] Initialized Monitor event reporter: 
+[06.01.2014 18:35:16 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[06.01.2014 18:35:16 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[06.01.2014 18:35:16 DBG1] Updating status reporter configuration 
+[06.01.2014 18:35:16 DBG1] Starting main loop 
+[07.01.2014 08:12:46 DBG1] Shutting down... 
+[07.01.2014 08:12:48 DBG1] Log Verbosity          : 3 
+[07.01.2014 08:12:48 DBG1] Log Rotation           : 10 
+[07.01.2014 08:12:48 DBG1] Install Directory      : /usr/local/zend 
+[07.01.2014 08:12:48 DBG1] Log Directory          : /usr/local/zend/var/log 
+[07.01.2014 08:12:48 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[07.01.2014 08:12:48 DBG1] Database type:          : QSQLITE 
+[07.01.2014 08:12:48 DBG1] Database host           : 127.0.0.1 
+[07.01.2014 08:12:48 DBG1] Database port           : 3306 
+[07.01.2014 08:12:48 DBG1] Database schema         : zend_deployment 
+[07.01.2014 08:12:48 DBG1] Database user           : zend 
+[07.01.2014 08:12:48 DBG1] Database password       : ****** 
+[07.01.2014 08:12:48 DBG1] Server scripts directory:  
+[07.01.2014 08:12:48 DBG1] Hooks PHP binary        :  
+[07.01.2014 08:12:48 DBG1] Initialized Monitor event reporter: 
+[07.01.2014 08:12:48 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[07.01.2014 08:12:48 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[07.01.2014 08:12:48 DBG1] Updating status reporter configuration 
+[07.01.2014 08:12:48 DBG1] Starting main loop 
+[07.01.2014 08:13:58 DBG1] Shutting down... 
+[07.01.2014 08:14:00 DBG1] Log Verbosity          : 3 
+[07.01.2014 08:14:00 DBG1] Log Rotation           : 10 
+[07.01.2014 08:14:00 DBG1] Install Directory      : /usr/local/zend 
+[07.01.2014 08:14:00 DBG1] Log Directory          : /usr/local/zend/var/log 
+[07.01.2014 08:14:00 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[07.01.2014 08:14:00 DBG1] Database type:          : QSQLITE 
+[07.01.2014 08:14:00 DBG1] Database host           : 127.0.0.1 
+[07.01.2014 08:14:00 DBG1] Database port           : 3306 
+[07.01.2014 08:14:00 DBG1] Database schema         : zend_deployment 
+[07.01.2014 08:14:00 DBG1] Database user           : zend 
+[07.01.2014 08:14:00 DBG1] Database password       : ****** 
+[07.01.2014 08:14:00 DBG1] Server scripts directory:  
+[07.01.2014 08:14:00 DBG1] Hooks PHP binary        :  
+[07.01.2014 08:14:00 DBG1] Initialized Monitor event reporter: 
+[07.01.2014 08:14:00 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[07.01.2014 08:14:00 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[07.01.2014 08:14:00 DBG1] Updating status reporter configuration 
+[07.01.2014 08:14:01 DBG1] Starting main loop 
+[07.01.2014 08:16:53 DBG1] Shutting down... 
+[07.01.2014 08:17:56 DBG1] Log Verbosity          : 3 
+[07.01.2014 08:17:56 DBG1] Log Rotation           : 10 
+[07.01.2014 08:17:56 DBG1] Install Directory      : /usr/local/zend 
+[07.01.2014 08:17:56 DBG1] Log Directory          : /usr/local/zend/var/log 
+[07.01.2014 08:17:56 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[07.01.2014 08:17:56 DBG1] Database type:          : QSQLITE 
+[07.01.2014 08:17:56 DBG1] Database host           : 127.0.0.1 
+[07.01.2014 08:17:56 DBG1] Database port           : 3306 
+[07.01.2014 08:17:56 DBG1] Database schema         : zend_deployment 
+[07.01.2014 08:17:56 DBG1] Database user           : zend 
+[07.01.2014 08:17:56 DBG1] Database password       : ****** 
+[07.01.2014 08:17:56 DBG1] Server scripts directory:  
+[07.01.2014 08:17:56 DBG1] Hooks PHP binary        :  
+[07.01.2014 08:17:56 DBG1] Initialized Monitor event reporter: 
+[07.01.2014 08:17:56 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[07.01.2014 08:17:56 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[07.01.2014 08:17:56 DBG1] Updating status reporter configuration 
+[07.01.2014 08:17:57 DBG1] Starting main loop 
+[07.01.2014 08:19:14 DBG1] Shutting down... 
+[07.01.2014 08:20:10 DBG1] Log Verbosity          : 3 
+[07.01.2014 08:20:10 DBG1] Log Rotation           : 10 
+[07.01.2014 08:20:10 DBG1] Install Directory      : /usr/local/zend 
+[07.01.2014 08:20:10 DBG1] Log Directory          : /usr/local/zend/var/log 
+[07.01.2014 08:20:10 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[07.01.2014 08:20:10 DBG1] Database type:          : QSQLITE 
+[07.01.2014 08:20:10 DBG1] Database host           : 127.0.0.1 
+[07.01.2014 08:20:10 DBG1] Database port           : 3306 
+[07.01.2014 08:20:10 DBG1] Database schema         : zend_deployment 
+[07.01.2014 08:20:10 DBG1] Database user           : zend 
+[07.01.2014 08:20:10 DBG1] Database password       : ****** 
+[07.01.2014 08:20:10 DBG1] Server scripts directory:  
+[07.01.2014 08:20:10 DBG1] Hooks PHP binary        :  
+[07.01.2014 08:20:10 DBG1] Initialized Monitor event reporter: 
+[07.01.2014 08:20:10 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[07.01.2014 08:20:10 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[07.01.2014 08:20:10 DBG1] Updating status reporter configuration 
+[07.01.2014 08:20:10 DBG1] Starting main loop 
+[07.01.2014 08:43:30 DBG1] Shutting down... 
+[07.01.2014 08:43:33 DBG1] Log Verbosity          : 3 
+[07.01.2014 08:43:33 DBG1] Log Rotation           : 10 
+[07.01.2014 08:43:33 DBG1] Install Directory      : /usr/local/zend 
+[07.01.2014 08:43:33 DBG1] Log Directory          : /usr/local/zend/var/log 
+[07.01.2014 08:43:33 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[07.01.2014 08:43:33 DBG1] Database type:          : QSQLITE 
+[07.01.2014 08:43:33 DBG1] Database host           : 127.0.0.1 
+[07.01.2014 08:43:33 DBG1] Database port           : 3306 
+[07.01.2014 08:43:33 DBG1] Database schema         : zend_deployment 
+[07.01.2014 08:43:33 DBG1] Database user           : zend 
+[07.01.2014 08:43:33 DBG1] Database password       : ****** 
+[07.01.2014 08:43:33 DBG1] Server scripts directory:  
+[07.01.2014 08:43:33 DBG1] Hooks PHP binary        :  
+[07.01.2014 08:43:33 DBG1] Initialized Monitor event reporter: 
+[07.01.2014 08:43:33 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[07.01.2014 08:43:33 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[07.01.2014 08:43:33 DBG1] Updating status reporter configuration 
+[07.01.2014 08:43:33 DBG1] Starting main loop 
+[07.01.2014 09:31:46 DBG1] Shutting down... 
+[07.01.2014 09:31:50 DBG1] Log Verbosity          : 3 
+[07.01.2014 09:31:50 DBG1] Log Rotation           : 10 
+[07.01.2014 09:31:50 DBG1] Install Directory      : /usr/local/zend 
+[07.01.2014 09:31:50 DBG1] Log Directory          : /usr/local/zend/var/log 
+[07.01.2014 09:31:50 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[07.01.2014 09:31:50 DBG1] Database type:          : QSQLITE 
+[07.01.2014 09:31:50 DBG1] Database host           : 127.0.0.1 
+[07.01.2014 09:31:50 DBG1] Database port           : 3306 
+[07.01.2014 09:31:50 DBG1] Database schema         : zend_deployment 
+[07.01.2014 09:31:50 DBG1] Database user           : zend 
+[07.01.2014 09:31:50 DBG1] Database password       : ****** 
+[07.01.2014 09:31:50 DBG1] Server scripts directory:  
+[07.01.2014 09:31:50 DBG1] Hooks PHP binary        :  
+[07.01.2014 09:31:50 DBG1] Initialized Monitor event reporter: 
+[07.01.2014 09:31:50 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[07.01.2014 09:31:50 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[07.01.2014 09:31:50 DBG1] Updating status reporter configuration 
+[07.01.2014 09:31:50 DBG1] Starting main loop 
+[20.01.2014 14:08:09 DBG1] Shutting down... 
+[20.01.2014 14:12:55 DBG1] Log Verbosity          : 3 
+[20.01.2014 14:12:55 DBG1] Log Rotation           : 10 
+[20.01.2014 14:12:55 DBG1] Install Directory      : /usr/local/zend 
+[20.01.2014 14:12:55 DBG1] Log Directory          : /usr/local/zend/var/log 
+[20.01.2014 14:12:55 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[20.01.2014 14:12:55 DBG1] Database type:          : QSQLITE 
+[20.01.2014 14:12:55 DBG1] Database host           : 127.0.0.1 
+[20.01.2014 14:12:55 DBG1] Database port           : 3306 
+[20.01.2014 14:12:55 DBG1] Database schema         : zend_deployment 
+[20.01.2014 14:12:55 DBG1] Database user           : zend 
+[20.01.2014 14:12:55 DBG1] Database password       : ****** 
+[20.01.2014 14:12:55 DBG1] Server scripts directory:  
+[20.01.2014 14:12:55 DBG1] Hooks PHP binary        :  
+[20.01.2014 14:12:55 DBG1] Initialized Monitor event reporter: 
+[20.01.2014 14:12:55 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[20.01.2014 14:12:55 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[20.01.2014 14:12:55 DBG1] Updating status reporter configuration 
+[20.01.2014 14:12:55 DBG1] Starting main loop 
+[24.01.2014 06:21:11 DBG1] Shutting down... 
+[24.01.2014 06:22:15 DBG1] Log Verbosity          : 3 
+[24.01.2014 06:22:15 DBG1] Log Rotation           : 10 
+[24.01.2014 06:22:15 DBG1] Install Directory      : /usr/local/zend 
+[24.01.2014 06:22:15 DBG1] Log Directory          : /usr/local/zend/var/log 
+[24.01.2014 06:22:15 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[24.01.2014 06:22:15 DBG1] Database type:          : QSQLITE 
+[24.01.2014 06:22:15 DBG1] Database host           : 127.0.0.1 
+[24.01.2014 06:22:15 DBG1] Database port           : 3306 
+[24.01.2014 06:22:15 DBG1] Database schema         : zend_deployment 
+[24.01.2014 06:22:15 DBG1] Database user           : zend 
+[24.01.2014 06:22:15 DBG1] Database password       : ****** 
+[24.01.2014 06:22:15 DBG1] Server scripts directory:  
+[24.01.2014 06:22:15 DBG1] Hooks PHP binary        :  
+[24.01.2014 06:22:15 DBG1] Initialized Monitor event reporter: 
+[24.01.2014 06:22:15 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[24.01.2014 06:22:15 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[24.01.2014 06:22:15 DBG1] Updating status reporter configuration 
+[24.01.2014 06:22:16 DBG1] Starting main loop 
+[29.01.2014 17:46:23 DBG1] Shutting down... 
+[29.01.2014 17:46:57 DBG1] Log Verbosity          : 3 
+[29.01.2014 17:46:57 DBG1] Log Rotation           : 10 
+[29.01.2014 17:46:57 DBG1] Install Directory      : /usr/local/zend 
+[29.01.2014 17:46:57 DBG1] Log Directory          : /usr/local/zend/var/log 
+[29.01.2014 17:46:57 DBG1] Temp Directory         : /usr/local/zend/tmp 
+[29.01.2014 17:46:57 DBG1] Database type:          : QSQLITE 
+[29.01.2014 17:46:57 DBG1] Database host           : 127.0.0.1 
+[29.01.2014 17:46:57 DBG1] Database port           : 3306 
+[29.01.2014 17:46:57 DBG1] Database schema         : zend_deployment 
+[29.01.2014 17:46:57 DBG1] Database user           : zend 
+[29.01.2014 17:46:57 DBG1] Database password       : ****** 
+[29.01.2014 17:46:57 DBG1] Server scripts directory:  
+[29.01.2014 17:46:57 DBG1] Hooks PHP binary        :  
+[29.01.2014 17:46:57 DBG1] Initialized Monitor event reporter: 
+[29.01.2014 17:46:57 DBG1] Transport parameter: /usr/local/zend/tmp/monitor_events.sock 
+[29.01.2014 17:46:57 DBG1] Event Rules file   : /usr/local/zend/etc/events_rules.xml 
+[29.01.2014 17:46:57 DBG1] Updating status reporter configuration 
+[29.01.2014 17:46:57 DBG1] Starting main loop 
+[04.02.2014 19:26:18 DBG1] Shutting down... 

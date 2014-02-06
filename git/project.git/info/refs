@@ -1,0 +1,7 @@
+1b68f2a22ebba6e470b40663851250a379c0bb31	refs/heads/3.0
+91ebbdde1d94e4077d9e106e86989cd47f1f0218	refs/heads/hook-feature
+4b54263daef0c4ea5371568d0ace807ecdff30a5	refs/heads/master
+d254c74a65bcb04063625ec6a344dfe351f83b0b	refs/heads/openshift
+357dd3d3c5de2553bfe77d81e67d083aff7c744a	refs/tags/1.0.0
+67c3b4601ba5bae5fe3ad284c6732f8f47d14a43	refs/tags/v3.0.0
+1b68f2a22ebba6e470b40663851250a379c0bb31	refs/tags/v3.0.0^{}

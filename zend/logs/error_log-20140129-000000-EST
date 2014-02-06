@@ -1,0 +1,7 @@
+[Tue Jan 28 20:56:35 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/robots.txt
+[Wed Jan 29 13:35:41 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Wed Jan 29 13:35:41 2014] [error] [client 127.4.95.1] File does not exist: /var/lib/openshift/52914f2e5973cac9cd000053/app-root/runtime/repo/php/favicon.ico
+[Wed Jan 29 17:46:59 2014] [notice] SELinux policy enabled; httpd running as context unconfined_u:system_r:openshift_t:s0:c2,c195
+[Wed Jan 29 17:47:01 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Jan 29 17:47:01 2014] [notice] Digest: done
+[Wed Jan 29 17:47:01 2014] [notice] Apache/2.2.22 (Unix) configured -- resuming normal operations

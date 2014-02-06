@@ -1,0 +1,76 @@
+#!/bin/bash
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+#ZCE_PREFIX points to the location of th Zend Server binaries and configuration for the cartridge
+export ZCE_PREFIX=${OPENSHIFT_ZEND_DIR}php-5.4
+export HTTPD_CFG_FILE=${OPENSHIFT_ZEND_DIR}configuration/etc/conf/httpd_nolog.conf
+export HTTPD_CFG_DIR=${OPENSHIFT_ZEND_DIR}configuration/etc/conf.d
+export PHPRC=$OPENSHIFT_ZEND_PHPRC
+export LD_LIBRARY_PATH=${ZCE_PREFIX}/lib:${LD_LIBRARY_PATH}
+
+export ZEND_TMPDIR=${ZCE_PREFIX}/tmp
+export TEMPTMPDIR=$TMPDIR
+export TMPDIR=${ZCE_PREFIX}/tmp
+#WEB_USER=apache
+export PRODUCT_NAME="Zend Server"
+export INSTALLATION_UID=1328
+export ZEND_TMPDIR=${ZCE_PREFIX}/tmp
+export PRODUCT_VERSION=6.1.0
+export PHPRC=${ZCE_PREFIX}/etc/php.ini
+export PHP_INI_SCAN_DIR=${ZCE_PREFIX}/etc/conf.d
+export DIST=pe
+export WEB_USER=$OPENSHIFT_GEAR_UUID
+
+
+start() {
+  echo -n $"Starting $prog: "
+  /usr/sbin/httpd -C "Include $HTTPD_CFG_DIR/*.conf" -f $HTTPD_CFG_FILE -k start
+  return $RETVAL
+}
+
+# When stopping httpd, a delay (of default 10 second) is required
+# before SIGKILLing the httpd parent; this gives enough time for the
+# httpd parent to SIGKILL any errant children.
+stop() {
+  echo -n $"Stopping $prog: "
+  /usr/sbin/httpd -C "Include $HTTPD_CFG_DIR/*.conf" -f $HTTPD_CFG_FILE -k stop
+  RETVAL=$?
+}
+
+reload() {
+  echo -n $"Reloading $prog: "
+}
+
+# See how we were called.
+case "$1" in
+  start)
+    start
+    ;;
+  stop)
+    stop
+    ;;
+  status)
+    RETVAL=0
+    ;;
+  restart)
+    stop
+    start
+    ;;
+  condrestart|try-restart)
+    stop
+    start
+    ;;
+  force-reload|reload)
+    stop
+    start
+    ;;
+  graceful|help|configtest|fullstatus)
+    stop
+    start
+    ;;
+  *)
+    echo $"Usage: $prog {start|stop|restart|condrestart|try-restart|force-reload|reload|status|fullstatus|graceful|help|configtest}"
+    RETVAL=2
+esac
+
+exit $RETVAL
